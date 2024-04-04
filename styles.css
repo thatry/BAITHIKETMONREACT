@@ -1,0 +1,222 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+}
+.header-top {
+    background-color: white;
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo {
+    width: 150px; /* Thay đổi kích thước logo phù hợp */
+}
+.navigation-bar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navigation-bar li {
+    margin-left: 20px;
+}
+.navigation-bar a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.header-banner {
+    background-color: white;
+    color: #050303;
+    text-align: center;
+    padding: 20px 0;
+}
+.header-banner h1 {
+    margin: 0;
+}
+h1 {
+    color: #d9534f;
+    text-align: center;
+}
+form {
+    width: 100%;
+    margin-top: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="date"],
+select, 
+input[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="text"]:focus,
+input[type="date"]:focus,
+select:focus {
+    outline: none;
+    border-color: #000;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #4cae4c;
+}
+
+
+.registration-section {
+    background-color: #d9534f; /* Màu nền đỏ */
+    color: white; /* Chữ màu trắng */
+    padding: 20px;
+    text-align: center;
+}
+
+.majors-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column, .right-column {
+    width: 45%;
+}
+
+.major-option {
+    display: block;
+    margin: 5px 0;
+}
+
+.major-option input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: white; /* Nền nút màu trắng */
+    color: #d9534f; /* Chữ nút màu đỏ */
+    border: 2px solid white; /* Viền nút màu trắng */
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .navigation-bar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navigation-bar ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .header-banner {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .radio-buttons {
+    display: flex;
+  }
+  
+  .radio-buttons label {
+    margin-right: 20px;
+  }
+  
+  fieldset {
+    margin-bottom: 20px;
+  }
+  
+  legend {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  select#field_of_study {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  label[for="digital_marketing"],
+  label[for="quan_tri_khach_san"],
+  label[for="tieng_anh_thuong_mai"],
+  label[for="Ung_dung_phan_mem"],
+  label[for="Tieng_han"],
+  label[for="Cham_soc_sac_dep"],
+  label[for="Tai_chinh_dau_tu"],
+  label[for="Cong_nghe_o_to"],
+  label[for="Thiet_ke_do_hoa"],
+  label[for="quan_tri_ban_hang"],
+  label[for="quan_tri_doanh_nghiep"],
+  label[for="quan_ly_doanh_nghiep"] {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
